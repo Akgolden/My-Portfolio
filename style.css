@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+header {
+    background-color: teal;
+    color: rgb(0, 255, 0);
+    padding: 20px;
+    text-align: left;
+    text-decoration: underline; 
+    font-size: small;
+    font-style: italic;
+}
+
+
+nav {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-size: small;
+    font-style: italic;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
