@@ -42,7 +42,7 @@ nav ul a{
 }
 
 nav ul li a:hover{
-    color: orange;
+    color: blue;
 }
 
 
@@ -53,7 +53,7 @@ nav ul li a:hover{
 }
 
 span{
-    color: orange;
+    color: blue;
 }
 
 .container{
@@ -74,7 +74,7 @@ span{
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: orange;
+    color: blue;
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
