@@ -1,52 +1,105 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(245, 245, 245);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+}
+.hero{
+    width: 100%;
+    height: 80px;
+    background: white;
+}
+.logo{
+    width: 100px;
+    height: auto;
+
 }
 
-header {
-    background-color: teal;
-    color: rgb(0, 255, 0);
-    padding: 20px;
-    text-align: left;
-    text-decoration: underline; 
-    font-size: small;
-    font-style: italic;
+nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-nav {
-    background-color: teal;
-    color: white;
-    padding: 10px;
-    text-align: right;
-    font-size: small;
-    font-style: italic;
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px; 
 }
 
-nav a {
-    color: white;
+nav ul a{
     text-decoration: none;
-    padding: 10px;
+    color: #000;
+    font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #555;
+nav ul li a:hover{
+    color: orange;
 }
 
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border: 1px solid white;
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detel{
+    flex: 1;
+}
+.detel p{
+    color:#555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    display: inline-block;
+    margin: 30px 0;
     border-radius: 5px;
 }
 
-footer {
-    background-color: teal;
-    color: #fff;
-    padding: 10px;
-    text-align: right;
+.image{
+    flex: 1;
+    /* width: 45%; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 100px;
 }
-.social{
-    background-color: teal;
+
+.image img{
+    height: 100%;
+    
+}
+
+.image:hover .shape{
+    /* bottom: 50px; */
+}
+
+.image:hover .Akin{
+    /* left: auto; */
 }
