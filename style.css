@@ -44,7 +44,7 @@ nav ul a{
 }
 
 nav ul li a:hover{
-    color: blue;
+    color: rgb(0, 153, 255);
 }
 
 .detel h1{
@@ -54,7 +54,7 @@ nav ul li a:hover{
 }
 
 span{
-    color: blue;
+    color: rgb(0, 153, 255);
 }
 
 .container{
@@ -81,7 +81,7 @@ span{
     border-radius: 5px;
 }
 .detel a:hover{
-    color: blue;
+    color: rgb(0, 153, 255);
 }
 
 .image{
