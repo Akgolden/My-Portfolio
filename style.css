@@ -28,16 +28,12 @@ nav{
     background-color: white;
     backdrop-filter: blur(10px);
     filter:opacity(.8);
-    /* backdrop-filter: 10px; */
-    /* padding-top: 20px; */
     overflow: hidden;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    /* width: 95%; */
     display: flex;
-    /* height: 100%; */
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -131,13 +127,12 @@ span{
     justify-content: space-around;
     gap: 20px;
 }
-/* .main img{ */
-    /* flex: 1; */
-/* } */
 
 #about .main .about-text{
-    /* background-color: red; */
     width: 100%;
+}
+    #about .main .about-text{
+        width: 100%;
 }
 .about-text h2{
     color: white;
@@ -194,7 +189,6 @@ h5{
 }
 
 .gallery{
-    /* background-color: red; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
