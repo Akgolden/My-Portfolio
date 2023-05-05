@@ -111,11 +111,11 @@ span{
 
 .about img{
     height: auto;
-    width: 430px;
+    width: 400px;
 }
 
 .about-text{
-    width: 550px;
+    width:100%;
 }
 
 .main{
@@ -131,8 +131,21 @@ span{
 #about .main .about-text{
     width: 100%;
 }
-    #about .main .about-text{
-        width: 100%;
+#project .main .about-text{
+    width: 100%;
+}
+
+#project .main .about-text .h2 .a .img{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.pphoto{
+    width: 400px;
+    height: 360px;
+
 }
 .about-text h2{
     color: white;
@@ -203,4 +216,16 @@ h5{
 }
 h3{
     padding-top: 20px;
+}
+footer{
+
+}
+.btn{
+    
+}
+.btn:hover{
+    background-color: #000;
+    color: rgb(0, 153, 255);
+    border: 2px solid #212121;
+    cursor: pointer;
 }
